@@ -10,22 +10,22 @@ const LeftMenu = ({type} : {type:"home" | "profile"}) => {
             <div className="p-4 bg-white rounded-lg shadow-md text-sm text-gray-500 flex flex-col gap-2">
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/posts.png" alt="" width={20} height={20} />
-                <span>My Posts</span>
+                <span>Mes Publications</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/activity.png" alt="" width={20} height={20} />
-                <span>Activity</span>
+                <span>Activité</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/market.png" alt="" width={20} height={20} />
-                <span>Marketplace</span>
+                <span>Marché</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/events.png" alt="" width={20} height={20} />
-                <span>Events</span>
+                <span>Évènements</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
@@ -35,27 +35,27 @@ const LeftMenu = ({type} : {type:"home" | "profile"}) => {
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/videos.png" alt="" width={20} height={20} />
-                <span>Videos</span>
+                <span>Vidéos</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/news.png" alt="" width={20} height={20} />
-                <span>News</span>
+                <span>Actualités</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/courses.png" alt="" width={20} height={20} />
-                <span>Courses</span>
+                <span>Formations</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/lists.png" alt="" width={20} height={20} />
-                <span>Lists</span>
+                <span>Listes</span>
                 </Link>
                 <hr className="border-t-1 border-gray-50 w-36 self-center"/>
                 <Link href="/" className="flex items-center gap-4 p-2 rounded-lg hover:bg-slate-100">
                 <Image src="/settings.png" alt="" width={20} height={20} />
-                <span>Settings</span>
+                <span>Paramètres</span>
                 </Link>
             </div>
             <Ad size="sm" />

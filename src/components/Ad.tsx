@@ -5,7 +5,7 @@ const Ad = ({size}: {size: "sm" | "md" | "lg" }) => {
         <div className="p-4 bg-white rounded-lg shadow-md text-sm">
             {/* TOP */}
             <div className="flex items-center justify-between text-gray-500 font-medium">
-                <span>Sponsored Ads</span>
+                <span>Annonces sponsorisées</span>
                 <Image src="/more.png" alt="" width={16} height={16} />
             </div>
             {/* BOTTOM */}
@@ -33,7 +33,7 @@ const Ad = ({size}: {size: "sm" | "md" | "lg" }) => {
             ? "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit."
             : "Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit.  Lorem ipsum dolor sit amet consectetur adipisicing elit."}
         </p>
-        <button className="bg-gray-200 text-gray-500 p-2 text-xs rounded-lg">Learn more</button>
+        <button className="bg-gray-200 text-gray-500 p-2 text-xs rounded-lg">En savoir plus</button>
             </div>
         </div>
     )

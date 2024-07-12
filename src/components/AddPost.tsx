@@ -18,14 +18,14 @@ const AddPost = () => {
             <div className="flex-1">
                 {/* TEXT INPUT */}
                 <form action="" className="flex gap-4">
-                    <textarea placeholder="What's on your mind ?" className="flex-1 bg-slate-100 rounded-lg p-2" name="desc"></textarea>
+                    <textarea placeholder="Qu'avez-vous en tête ?" className="flex-1 bg-slate-100 rounded-lg p-2" name="desc"></textarea>
                     <Image src="/emoji.png"
             alt=""
             width={20}
             height={20}
             className="w-5 h-5 cursor-pointer self-end">
             </Image>
-            <button>Send</button>
+            <button>Publier</button>
                 </form>
                 {/* POST OPTIONS */}
                 <div className="flex items-center gap-4 mt-4 text-gray-400 flex-wrap">
@@ -39,11 +39,11 @@ const AddPost = () => {
                     </div>
                     <div className="flex items-center gap-2 cursor-pointer">
                     <Image src="/addevent.png" alt="" width={20} height={20} />
-                    Event
+                    Évènement
                     </div>
                     <div className="flex items-center gap-2 cursor-pointer">
                     <Image src="/poll.png" alt="" width={20} height={20} />
-                    Poll
+                    Sondage
                     </div>
                 </div>
             </div>

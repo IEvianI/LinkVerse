@@ -35,13 +35,13 @@ const Post = () => {
                     <Image src="/like.png"
                     alt="" width={16} height={16} className="cursor-pointer" />
                     <span className="text-gray-300">|</span>
-                    <span className="text-gray-500">123<span className="hidden md:inline"> Likes</span></span>
+                    <span className="text-gray-500">123<span className="hidden md:inline"> J'aime</span></span>
                     </div>
                     <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
                     <Image src="/comment.png"
                     alt="" width={16} height={16} className="cursor-pointer" />
                     <span className="text-gray-300">|</span>
-                    <span className="text-gray-500">123<span className="hidden md:inline"> Comments</span></span>
+                    <span className="text-gray-500">123<span className="hidden md:inline"> Commentaires</span></span>
                     </div>
                 </div>
                 <div className="">
@@ -49,7 +49,7 @@ const Post = () => {
                     <Image src="/share.png"
                     alt="" width={16} height={16} className="cursor-pointer" />
                     <span className="text-gray-300">|</span>
-                    <span className="text-gray-500">123<span className="hidden md:inline"> Shares</span></span>
+                    <span className="text-gray-500">123<span className="hidden md:inline"> Partages</span></span>
                     </div>
                 </div>
             </div>
