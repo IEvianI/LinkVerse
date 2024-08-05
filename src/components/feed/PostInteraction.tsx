@@ -40,7 +40,7 @@ const PostInteraction = ({
             console.log(err)
         }
     }
-    {/* Post I */}
+    {/* Post */}
     return (
         <div className="flex items-center justify-between text-sm my-4">
                 <div className="flex gap-8">
