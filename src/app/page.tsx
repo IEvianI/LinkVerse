@@ -20,4 +20,8 @@ const Homepage = () => {
   )
 }
 
+export const generateStaticParams = async () => {
+  return Array.from(Array(20).keys()).map((value:number) => ({variable: value}));
+}
+
 export default Homepage
