@@ -52,7 +52,7 @@ const PostInteraction = ({
                             </button>
                         </form>
                     <span className="text-gray-300">|</span>
-                    <span className="text-gray-500">{optimisticLike.likeCount}<span className="hidden md:inline"> J&apos;aime</span></span>
+                    <span className="text-gray-500">{optimisticLike.likeCount}<span className="hidden md:inline"> Likes</span></span>
                     </div>
                     <div className="flex items-center gap-4 bg-slate-50 p-2 rounded-xl">
                     <Image src="/comment.png"

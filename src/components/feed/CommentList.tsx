@@ -70,7 +70,7 @@ const CommentList = ({
           >
             <input
               type="text"
-              placeholder="Write a comment..."
+              placeholder="Écrire un commentaire..."
               className="bg-transparent outline-none flex-1"
               onChange={(e) => setDesc(e.target.value)}
             />

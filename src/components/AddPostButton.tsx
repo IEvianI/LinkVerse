@@ -13,7 +13,7 @@ const AddPostButton = () => {
           Sending
         </div>
       ) : (
-        "Send"
+        "Publier"
       )}
         </button>
     )
