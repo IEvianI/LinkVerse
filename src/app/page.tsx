@@ -1,6 +1,7 @@
 import AddPost from "@/components/AddPost"
 import Feed from "@/components/feed/Feed"
 import LeftMenu from "@/components/leftMenu/LeftMenu"
+import ProfileCard from "@/components/leftMenu/ProfileCard"
 import RightMenu from "@/components/rightMenu/RightMenu"
 import Stories from "@/components/Stories"
 
@@ -13,6 +14,7 @@ const Homepage = () => {
           <Stories />
           <AddPost />
           <Feed />
+          <ProfileCard />
         </div>
       </div>
       <div className="max-[767px]:w-full lg:block w-[30%]"><RightMenu /></div>
