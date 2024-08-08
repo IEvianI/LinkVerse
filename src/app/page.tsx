@@ -5,7 +5,7 @@ import ProfileCard from "@/components/leftMenu/ProfileCard"
 import RightMenu from "@/components/rightMenu/RightMenu"
 import Stories from "@/components/Stories"
 
-const Homepage = ({ type }: { type: "home" | "profile" }) => {
+const Homepage = () => {
   return (
     <div className='flex max-[767px]:flex-col gap-6 pt-6'>
       <div className="hidden xl:block w-[20%]"><LeftMenu type="home" /></div>
@@ -14,7 +14,7 @@ const Homepage = ({ type }: { type: "home" | "profile" }) => {
           <Stories />
           <AddPost />
           <Feed />
-          {type === "home" && <ProfileCard />}
+          <ProfileCard />
         </div>
       </div>
       <div className="max-[767px]:w-full lg:block w-[30%]"><RightMenu /></div>
